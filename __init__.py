@@ -22,6 +22,7 @@ class Redmine(object):
     def __init__(self, url, **kwargs):
         """
         :param string url: (required). Redmine location.
+        :param JythonConsole system: ('optional'). system object for Igntiion built-in functions - required for Ignition Engine
         :param string key: (optional). API key used for authentication.
         :param string version: (optional). Redmine version.
         :param string username: (optional). Username used for authentication.
